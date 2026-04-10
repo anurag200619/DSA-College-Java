@@ -165,3 +165,63 @@ import java.util.*;
 //        }
 //    }
 //}
+
+//public class Main {
+//    public static void main(String[] args) {
+//        String str1 = "abcd";
+//        int count = 0;
+//        for (int i=0; i<str1.length(); i++){
+//            for (int j=0; j< str1.length(); j++){
+//                if(str1.charAt(i) == str1.charAt(j)){
+//                    count++;
+//                }
+//            }
+//        }
+//        System.out.println(count);
+//    }
+//}
+
+//public class Main{
+//    public static void main(String[] args) {
+//        String str1 = "abcd";
+//        char remove = 'b';
+//        String result = "";
+//        for (int i=0; i<str1.length(); i++){
+//            if(str1.charAt(i)!= remove)
+//            {
+//                result += str1.charAt(i);
+//            }
+//        }
+//        System.out.println(result);
+//    }
+//}
+
+//public class Main {
+//    public static void main(String[] args) {
+//        String str = "ab1856ds";
+//        char max = '0';
+//        for (int i=0; i<str.length(); i++) {
+//            char ch = str.charAt(i);
+//            if(ch >= '0' && ch <= '9' && ch > max) {
+//                max = ch;
+//            }
+//        }
+//        System.out.println(max);
+//    }
+//}
+
+//public class Main {
+//    public static void main(String[] args){
+//        String str = "aabcddzzeff";
+//        String result = "";
+//        int j = 0;
+//        result += str.charAt(j);
+//        for (int i=1; i<str.length(); i++){
+//            if(str.charAt(i)!=result.charAt(j)){
+//                result += str.charAt(i);
+//                j++;
+//            }
+//        }
+//        System.out.println(result);
+//    }
+//}
