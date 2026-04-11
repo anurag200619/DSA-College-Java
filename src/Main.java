@@ -225,3 +225,21 @@ import java.util.*;
 //        System.out.println(result);
 //    }
 //}
+
+public class Main {
+    public static void main(String[] args) {
+        String s1="hello";
+        for(int i =0;i<s1.length();i++){
+            char ch=s1.charAt(i);
+            int count =0;
+            for(int j=0;j<s1.length();j++){
+                if(s1.charAt(j)==ch);
+                count++;
+            }
+            if(count==1){
+                System.out.println(ch);
+                break;
+            }
+        }
+    }
+}
