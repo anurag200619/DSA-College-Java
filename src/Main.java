@@ -243,3 +243,28 @@ public class Main {
         }
     }
 }
+
+//public class Main {
+//    static int gcd(int a, int b)
+//    {
+//        if(b == 0) return a;
+//        return gcd(b, a%b);
+//    }
+//    public static void main(String[] args) {
+//        int a=12, b=16;
+//        System.out.println(gcd(a,b));
+//    }
+//}
+
+//public class Main{
+//    static int countzeros(int a)
+//    {
+//        if(a==0) return 0;
+//        int count = (a%10 == 0) ? 1 : 0;
+//        return count + countzeros(a/10);
+//    }
+//    public static void main(String[] args){
+//        int a = 1020301;
+//        System.out.println(countzeros(a));
+//    }
+//}
