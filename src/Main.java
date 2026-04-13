@@ -226,23 +226,35 @@ import java.util.*;
 //    }
 //}
 
-public class Main {
-    public static void main(String[] args) {
-        String s1="hello";
-        for(int i =0;i<s1.length();i++){
-            char ch=s1.charAt(i);
-            int count =0;
-            for(int j=0;j<s1.length();j++){
-                if(s1.charAt(j)==ch);
-                count++;
-            }
-            if(count==1){
-                System.out.println(ch);
-                break;
-            }
-        }
-    }
-}
+//public class Main {
+//    public static void main(String[] args) {
+//        String s1="hello";
+//        for(int i =0;i<s1.length();i++){
+//            char ch=s1.charAt(i);
+//            int count =0;
+//            for(int j=0;j<s1.length();j++){
+//                if(s1.charAt(j)==ch);
+//                count++;
+//            }
+//            if(count==1){
+//                System.out.println(ch);
+//                break;
+//            }
+//        }
+//    }
+//}
+
+//public class Main {
+//    static int countdigit(int n)
+//    {
+//        if(n==0) return 0;
+//        return 1 + countdigit(n/10);
+//    }
+//    public static void main(String[] args) {
+//        int n = 12345;
+//        System.out.println(countdigit(n));
+//    }
+//}
 
 //public class Main {
 //    static int gcd(int a, int b)
