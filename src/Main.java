@@ -280,3 +280,7 @@ import java.util.*;
 //        System.out.println(countzeros(a));
 //    }
 //}
+
+public class Main{
+    
+}
